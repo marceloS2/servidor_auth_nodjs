@@ -1,0 +1,12 @@
+npm i -y
+npm i koa koa-router @koa/cors koa-bodyparser boom fastest-validator sequelize sequelize-cli
+npm i sqlite3 
+npm i -D nodemon fica atulizando automaticamente o servidor
+no packge.json edita para "start": nodemon 
+./node_modules/.bin/sequelize init pra criar as migration
+criar um arquivo chamado .sequelizec cria as configuralçoes
+pega o arquivo json dentro ta pasta _confing criada pelo comando sequelize init
+comando pra criar as models:  npx sequelize model:generate --name User --attributes Name:string,email:string,password:string
+depois rodar o db : npx sequelize db:migration
+
+https://www.youtube.com/watch?v=kAHVIjNZ6WI&t=701s&ab_channel=MatheusCastiglioni
